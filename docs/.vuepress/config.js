@@ -36,9 +36,9 @@ module.exports = {
 		],
 		'/Note/':[
 		{
-			title: "Spring、SpringMVC、Mybatis心得与笔记",
+			title: "笔记",
 			children:[
-				'笔记'
+				'Spring、SpringMVC、Mybatis心得与笔记'
 			]
 		}
 		]
