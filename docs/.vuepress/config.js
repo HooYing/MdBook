@@ -33,6 +33,14 @@ module.exports = {
             'C++多线程'
           ]
         }
+		],
+		'/Note/':[
+		{
+			title: "Spring、SpringMVC、Mybatis心得与笔记",
+			chileren:[
+				'笔记'
+			]
+		}
 		]
       },
       sidebarDepth: 3, // 侧边栏显示2级
