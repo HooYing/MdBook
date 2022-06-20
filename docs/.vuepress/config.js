@@ -16,13 +16,13 @@ module.exports = {
       sidebar: { // 侧边栏配置
         '/main/':[
         {
-          title: "zhiye",
+          title: "欢迎",
           children: [
             ''
           ]
         },
         {
-          title: "main",
+          title: "栈帧",
           children:[
             'main'
           ]
