@@ -1,6 +1,8 @@
-<h1 align = "center">Spring、SpringMVC、Mybatis心得与笔记</h1>
+# Spring、SpringMVC、Mybatis心得与笔记
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-[卖炫迈的小男孩](https://blog.csdn.net/qq_43791377?spm=1001.2014.3001.5343)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[卖炫迈的小男孩](https://blog.csdn.net/qq_43791377?spm=1001.2014.3001.5343)
 
 本博客参考视频来自黑马：[B站黑马官方视频](https://www.bilibili.com/video/BV1WZ4y1P7Bp)
 
@@ -8,7 +10,7 @@
 
 截图来自黑马课件和尚硅谷javaweb课件
 
-## <h2 align = "center">一.Spring简介</h2>
+## 一.Spring简介
 
 ### 1.Spring是什么
 
@@ -24,7 +26,7 @@
 
 （4）Spring集成了junit
 
-## <h2 align = "center">二.Spring程序开发步骤</h2>
+## 二.Spring程序开发步骤
 
 ### 1.开发步骤举例
 
@@ -80,7 +82,7 @@ ClassPathXmlApplicationContext：从类路径下的一个或多个XML配置文�
 
 ![image-20210123025535035](https://xuanmai-typora.oss-cn-shenzhen.aliyuncs.com/image-20210123025535035.png)
 
-## <h2 align = "center">三.Spring配置文件</h2>
+## 三.Spring配置文件
 
 ### 1.Bean标签的基本配置
 
@@ -980,7 +982,7 @@ com.mchange.v2.c3p0.impl.NewProxyConnection@14f232c4
 Process finished with exit code 0
 ```
 
-## <h2 align = "center">四.Spring的注解开发</h2>
+## 四.Spring的注解开发
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spring是轻代码而重配置的框架，配置比较繁重，影响开发效率，所以注解开发是一种趋势，注解代替xml配置文件可以简化配置，提高开发效率。
 
@@ -1617,7 +1619,7 @@ public class SpringJunitTest {
 }
 ```
 
-## <h2 align = "center">五.Spring的AOP</h2>
+## 五.Spring的AOP
 
 #### 1.AOP简介
 
@@ -2242,7 +2244,7 @@ public class AnnoTest {
 
 ![基于注解的aop开发知识要点](https://xuanmai-typora.oss-cn-shenzhen.aliyuncs.com/基于注解的aop开发知识要点.png)
 
-## <h2 align = "center">六.JdbcTemplate</h2>
+## 六.JdbcTemplate
 
 ### 1.概述
 
