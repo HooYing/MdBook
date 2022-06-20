@@ -14,7 +14,7 @@ module.exports = {
         {text: 'github', link: 'https://github.com/HooYing'}      
       ],
       sidebar: { // 侧边栏配置
-        '/main/':[
+        '/CPP/':[
         {
           title: "欢迎",
           children: [
@@ -24,9 +24,16 @@ module.exports = {
         {
           title: "栈帧",
           children:[
-            'main'
+            '栈帧'
           ]
-        }]
+        },
+		{
+          title: "C++多线程",
+          children:[
+            'C++多线程'
+          ]
+        }
+		]
       },
       sidebarDepth: 3, // 侧边栏显示2级
       logo: '/logo.jpg',
