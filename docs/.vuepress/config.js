@@ -36,14 +36,8 @@ module.exports = {
 		],
 		'/Note/':[
 		{
-			title: "前言",
-			chileren:[
-				''
-			]
-		},
-		{
 			title: "Spring、SpringMVC、Mybatis心得与笔记",
-			chileren:[
+			children:[
 				'笔记'
 			]
 		}
